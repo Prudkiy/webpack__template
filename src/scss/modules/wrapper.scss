@@ -1,3 +1,15 @@
 h1 {
     font-size: rem(20);
+    color: #777777;
+}
+p {
+	color: green;
+}
+.bodyWrap {
+	@include size(500, auto);
+	margin: 0 auto;
+	border: 1px solid grey;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
 }
